@@ -13,7 +13,7 @@
    4. [Description](#Description)
    5. [Experiment result](#result)
       1. [Main result](#main)
-      2. [Further analyse](#further)
+      2. [Further analysis](#further)
 2. [Code](#Code)
    1. [Description](#code_des)
    2. [Dependencies](#Dependencies)
@@ -111,7 +111,7 @@ We conducted extensive experiments to evaluate existing embedding-based entity a
 | MultiKE                  | .230     | .404     | .289     | .144     | .253     | .181     |   .132   | .206     | .158     |
 | TAE (ours)               | **.769** | **.917** | **.825** | **.826** | **.905** | **.857** | **.792** | **.896** | **.831** |
 
-<h4 id='further'>Further Analyze</h4>
+<h4 id='further'>Further Analysis</h4>
 
 The following Figure shows the recall of aligning events, other entities, and all entities on our datasets, respectively. We can find that all methods obtain the lowest recall on events across all datasets, which indicates that aligning such special entities with strong heterogeneity is challenging.
 
